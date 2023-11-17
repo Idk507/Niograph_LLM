@@ -9,7 +9,7 @@ from langchain import HuggingFaceHub
 from langchain.document_loaders import PyPDFLoader, DirectoryLoader, TextLoader
 
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YourHuggingFaceAPI"
 DB_FAISS_PATH = 'vectorstore_faiss/db'
 loader = TextLoader("./data/nio_complete.txt")
 document = loader.load()
