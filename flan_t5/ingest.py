@@ -4,7 +4,7 @@ from langchain.document_loaders import PyPDFLoader, DirectoryLoader,TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter 
 import os
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "YOur Hugging Face API"
 
 DATA_PATH = 'data/'
 DB_FAISS_PATH = 'vectorstore/db_faiss'
